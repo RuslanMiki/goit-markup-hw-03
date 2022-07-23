@@ -217,9 +217,9 @@ body {
 }
 
 /* Блок Наши приимущества */
-.sect {
+.advantages {
+  padding-bottom: 94px;
   padding-top: 94px;
-  margin-bottom: 94px;
 }
 
 .advantages > .container > .list {
@@ -251,7 +251,7 @@ body {
 
 /* Блок Work  */
 .work {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .work .titel {
@@ -296,8 +296,7 @@ body {
   background-color: var(--primary-bg-color);
 }
 
-.card > .titel {
-  padding-top: 30px;
+.containt > .titel {
   margin: 0;
   margin-bottom: 10px;
 
@@ -306,18 +305,22 @@ body {
   line-height: 1.19;
 }
 
-.card > .text {
-  padding-bottom: 30px;
+.containt > .text {
   margin: 0;
 
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
+.containt {
+padding-bottom: 30px;
+padding-top: 30px;
+}
 
 .card > img {
   display: block;
 }
+
 
 /* Футер */
 .footer {
@@ -334,7 +337,7 @@ body {
 
 .address > .text {
   margin: 0;
-  margin-top: 20px;
+  margin-bottom: 9px;
 }
 
 .address {
@@ -346,7 +349,10 @@ body {
   color: var(--address-secondary-color);
 
   display: inline-block;
-  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.logo-footer {
+margin-bottom: 20px;
 }
 
 .address .link:hover,
@@ -364,6 +370,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 .galerry .list:first-of-type {
